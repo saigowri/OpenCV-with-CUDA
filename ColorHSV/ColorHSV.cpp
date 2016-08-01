@@ -26,9 +26,9 @@ const int HUE_HEIGHT = 25;              // thickness of Hue chart
 const int WHEEL_TOP = HUE_HEIGHT + 20;          // y position for top of color wheel (= Hue height + gap)
 const int WHEEL_BOTTOM = WHEEL_TOP + 255;       // y position for bottom of color wheel
 const int TILE_LEFT = 280;      // Position of small tile showing highlighted color
-const int TILE_TOP = 140;       //              "
-const int TILE_W = 60;          //              "
-const int TILE_H = 60;          //              "
+const int TILE_TOP = 140; 
+const int TILE_W = 60;  
+const int TILE_H = 60;  
 
 char *windowMain = "HSV Color Wheel. Click a color, or press ESC to quit";      // title of the window
 
