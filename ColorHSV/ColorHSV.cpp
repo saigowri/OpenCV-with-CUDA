@@ -160,12 +160,7 @@ void mouseEvent( int ievent, int x, int y, int flags, void* param )
 // C++ entry point
 int main(int argc, char **argv)
 {
-  cout << "HSV Color Wheel, by Shervin Emami (shervin.emami@gmail.com), 6th Nov 2009.\n";
-        cout << "Click on the top Hue map, or the bottom Color graph to change values.\n";
-        cout << "Hi the Escape key in the image window to quit.\n";
-        cout << endl << "Red, Green, Blue values of clicked colors:" << endl;
-
-        // Create a GUI window
+         // Create a GUI window
         cvNamedWindow(windowMain, 1);
         // Allow the user to change the Hue value upto 179, since OpenCV uses Hues upto 180.
         cvCreateTrackbar( "Hue", windowMain, &hue, HUE_RANGE-1, &hue_trackbarWasChanged );
